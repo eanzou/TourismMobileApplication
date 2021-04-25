@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TravelPoint</string>
+    <string name="title_activity_e_update_username">e_updateUsername</string>
+    <string name="reference_image">
+        https://www.thrillophilia.com/attractions/mantanani-island\n
+        \nhttps://www.thrillophilia.com/attractions/tanjung-aru-beach\n
+        \nhttps://www.thrillophilia.com/attractions/mount-kinabalu\n
+        \nhttps://www.thrillophilia.com/attractions/bohey-dulang-beach\n
+        \nhttps://www.thrillophilia.com/places-to-visit-in-kuala-lumpur#\n
+        \nhttps://www.planetware.com/malaysia/top-rated-tourist-attractions-in-penang-mal-1-4.htm\n
+        \nhttps://visitmsia.com/attractions-in-kedah/\n
+    </string>
+    <string name="reference_icon">
+        https://www.flaticon.com/\n
+    </string>
+    <string name="reference_video">
+        https://www.youtube.com/watch?v=NP5W2P1qZAs\n
+        \nhttps://www.youtube.com/watch?v=ReH8_R29PbY\n
+        \nhttps://www.youtube.com/watch?v=NP5W2P1qZAs\n
+    </string>
+</resources>

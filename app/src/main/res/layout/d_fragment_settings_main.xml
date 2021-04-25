@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="120dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="60dp"
+                app:strokeColor="#ababb2"
+                app:strokeWidth="2dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/img_setting" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <TextView
+                android:id="@+id/setting_username"
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:textSize="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="24dp"
+                android:text="Account"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/setting_bg_co" />
+
+            <LinearLayout
+                android:id="@+id/btn_edit_username"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginHorizontal="30dp"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="5dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:background="@drawable/setting_btm_line">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/antic"
+                    android:text="Edit Username"
+                    android:textSize="24dp" />
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_change_pass"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginHorizontal="30dp"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="5dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:background="@drawable/setting_btm_line">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/antic"
+                    android:text="Change Password"
+                    android:textSize="24dp" />
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_delete"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginHorizontal="30dp"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="5dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:background="@drawable/setting_btm_line">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/antic"
+                    android:text="Delete Account"
+                    android:textSize="24dp" />
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="24dp"
+                android:text="Preference"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/setting_bg_co"/>
+
+            <LinearLayout
+                android:id="@+id/btn_privacy"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginHorizontal="30dp"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="5dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:background="@drawable/setting_btm_line">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/antic"
+                    android:text="Privacy Policy"
+                    android:textSize="24dp" />
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_source"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginHorizontal="30dp"
+                android:paddingHorizontal="10dp"
+                android:paddingTop="5dp"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:background="@drawable/setting_btm_line">
+
+                <TextView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/antic"
+                    android:text="Reference Source"
+                    android:textSize="24dp" />
+
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/ic_baseline_keyboard_arrow_right_24"/>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_logout"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="24dp"
+                android:textAllCaps="false"
+                android:text="Log Out"
+                android:gravity="center"
+                android:layout_marginHorizontal="100dp"
+                android:layout_marginVertical="20dp"
+                android:background="@drawable/button_bg"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

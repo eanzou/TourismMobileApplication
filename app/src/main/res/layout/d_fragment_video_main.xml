@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif-smallcaps"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:text="Explore the Beauty of Malaysia"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calibri"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:text="10 Best Places To Visit in Malaysia"/>
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/d_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:useWebUi="true"
+                app:autoPlay="false"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="20dp"
+                app:videoId="sKDQFvw-wrM"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calibri"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:text="Malaysia Travel Guide"/>
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/d_video2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:useWebUi="true"
+                app:autoPlay="false"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="20dp"
+                app:videoId="NP5W2P1qZAs"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calibri"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="20dp"
+                android:text="Drone Shot of Malaysia"/>
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/d_video3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:useWebUi="true"
+                app:autoPlay="false"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="20dp"
+                app:videoId="ReH8_R29PbY"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

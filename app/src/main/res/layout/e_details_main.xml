@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".e_details_page"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/e_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/img_twin_tower"/>
+
+    <LinearLayout
+        android:id="@+id/e_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/curve"
+        android:layout_marginTop="-50dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_back_details"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back_icon"/>
+
+        <TextView
+            android:id="@+id/e_picname"
+            android:layout_width="match_parent"
+            android:fontFamily="sans-serif-smallcaps"
+            android:layout_marginHorizontal="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-40dp"
+            android:gravity="center"
+            android:text="Petronas Twin Towers"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <ScrollView
+            android:id="@+id/e_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/e_descrip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calibri"
+                android:text="Description"
+                android:padding="10dp"
+                android:justificationMode="inter_word"
+                android:textColor="#000000"
+                android:lineSpacingExtra="5dp"
+                android:textSize="20dp"
+                android:layout_marginHorizontal="20dp"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/learn_more"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="100dp"
+                    android:background="@drawable/button_bg"
+                    android:layout_marginVertical="18dp"
+                    android:text="Learn More"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+</LinearLayout>

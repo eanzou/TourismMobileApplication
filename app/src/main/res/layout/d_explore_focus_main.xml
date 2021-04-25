@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".d_explore_focus"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_back_focus"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/back_icon"/>
+
+    <TextView
+        android:id="@+id/state_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kuala Lumpur"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="-50dp"
+        android:layout_marginBottom="20dp"/>
+
+    <GridView
+        android:id="@+id/d_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:gravity="center"
+        android:layout_margin="10dp">
+    </GridView>
+
+</LinearLayout>
