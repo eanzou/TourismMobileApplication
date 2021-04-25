@@ -1,5 +1,7 @@
 # TourismMobileApplication
 
+Note: Please unzip all files before use
+
 Informative Mobile Application (Topic: Tourism)
 Requirements:
 
